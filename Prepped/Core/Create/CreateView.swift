@@ -124,9 +124,6 @@ struct CreateView: View {
                     .tint(Color.primary)
                     Spacer()
                 }
-                
-                
-                
                 if isCreatingSomething() == true {
                     switch meal.creationState {
                     case .meal:
@@ -139,9 +136,6 @@ struct CreateView: View {
                         Text("")
                     }
                 }
-                
-                
-                
             }
             .padding(.horizontal)
             .padding(.top)
@@ -161,6 +155,8 @@ struct CreateView: View {
                     }
                     .tint(Color.primaryColor)
                 }
+                
+                
             }
         }
         
