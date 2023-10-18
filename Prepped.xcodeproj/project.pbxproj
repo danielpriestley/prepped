@@ -18,6 +18,8 @@
 		D98CD6CF2AD88D5800D1686E /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CD6CE2AD88D5800D1686E /* ViewModifiers.swift */; };
 		D990D3242AD99B97000089B9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990D3232AD99B97000089B9 /* Meal.swift */; };
 		D990D3262AD9DA4B000089B9 /* MealCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990D3252AD9DA4B000089B9 /* MealCreationView.swift */; };
+		D99CD9DA2ADEF9D2000BDAC0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CD9D92ADEF9D2000BDAC0 /* LoginView.swift */; };
+		D99CD9DC2ADEF9DC000BDAC0 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CD9DB2ADEF9DC000BDAC0 /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		D98CD6CE2AD88D5800D1686E /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		D990D3232AD99B97000089B9 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D990D3252AD9DA4B000089B9 /* MealCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCreationView.swift; sourceTree = "<group>"; };
+		D99CD9D92ADEF9D2000BDAC0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D99CD9DB2ADEF9DC000BDAC0 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 		D98CD6C22AD86FC300D1686E /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				D99CD9D92ADEF9D2000BDAC0 /* LoginView.swift */,
+				D99CD9DB2ADEF9DC000BDAC0 /* RegistrationView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99CD9DC2ADEF9DC000BDAC0 /* RegistrationView.swift in Sources */,
 				D98CD6C52AD8705F00D1686E /* PreppedTabView.swift in Sources */,
 				D98CD6CF2AD88D5800D1686E /* ViewModifiers.swift in Sources */,
 				D98CD6C72AD871F100D1686E /* Colors+Ext.swift in Sources */,
@@ -254,6 +261,7 @@
 				D990D3242AD99B97000089B9 /* Meal.swift in Sources */,
 				D98CD6B02AD86E4500D1686E /* ContentView.swift in Sources */,
 				D98CD6CD2AD884FF00D1686E /* CreateView.swift in Sources */,
+				D99CD9DA2ADEF9D2000BDAC0 /* LoginView.swift in Sources */,
 				D98CD6AE2AD86E4500D1686E /* PreppedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
