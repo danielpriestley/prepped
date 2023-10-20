@@ -63,7 +63,7 @@ struct PreppedTabView: View {
                 }
                 .tag(3)
             
-            Text("Account View")
+            AccountView()
                 .tabItem {
                     Image(systemName: selectedTab == 4 ? "person.fill" : "person")
                         .environment(\.symbolVariants, selectedTab == 4 ? .fill : .none )

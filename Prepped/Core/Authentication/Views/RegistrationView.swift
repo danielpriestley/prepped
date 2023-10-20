@@ -35,7 +35,7 @@ struct RegistrationView: View {
                     TextField("Name", text: $viewModel.name)
                         .modifier(PreppedTextFieldModifier())
                         .autocorrectionDisabled()
-                    TextField("Password", text: $viewModel.password)
+                    SecureField("Password", text: $viewModel.password)
                         .modifier(PreppedTextFieldModifier())
                         .autocorrectionDisabled()
                         .textInputAutocapitalization(.never)

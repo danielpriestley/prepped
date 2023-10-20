@@ -15,9 +15,9 @@ struct MealsView: View {
         NavigationStack {
             ScrollView {
                 LazyVStack {
-                    ForEach(1...20, id: \.self) { _ in
-                        Text("Meal")
-                    }
+//                    ForEach(1...20, id: \.self) { _ in
+//                        Text("Meal")
+//                    }
                 }
             }
             .navigationTitle("Meals")
