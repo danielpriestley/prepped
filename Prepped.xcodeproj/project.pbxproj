@@ -53,6 +53,7 @@
 		D99CD9DA2ADEF9D2000BDAC0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CD9D92ADEF9D2000BDAC0 /* LoginView.swift */; };
 		D99CD9DC2ADEF9DC000BDAC0 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CD9DB2ADEF9DC000BDAC0 /* RegistrationView.swift */; };
 		D99CD9DE2AE09B37000BDAC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D99CD9DD2AE09B37000BDAC0 /* GoogleService-Info.plist */; };
+		D9BA89D52AE8B09D00DC1F1B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA89D42AE8B09D00DC1F1B /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		D99CD9D92ADEF9D2000BDAC0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D99CD9DB2ADEF9DC000BDAC0 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		D99CD9DD2AE09B37000BDAC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9BA89D42AE8B09D00DC1F1B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 			children = (
 				D98CD6C62AD871F100D1686E /* Colors+Ext.swift */,
 				D98CD6CE2AD88D5800D1686E /* ViewModifiers.swift */,
+				D9BA89D42AE8B09D00DC1F1B /* View+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BA89D52AE8B09D00DC1F1B /* View+Ext.swift in Sources */,
 				D99CD9DC2ADEF9DC000BDAC0 /* RegistrationView.swift in Sources */,
 				D98C67CF2AE09FA200F197F8 /* RegistrationViewModel.swift in Sources */,
 				D98CD6C52AD8705F00D1686E /* PreppedTabView.swift in Sources */,

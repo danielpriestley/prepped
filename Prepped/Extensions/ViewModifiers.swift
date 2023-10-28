@@ -24,9 +24,20 @@ struct PreppedPrimaryButtonLabelModifier: ViewModifier {
         content
             .font(.subheadline)
             .fontWeight(.semibold)
-            .foregroundStyle(.black)
+            .foregroundStyle(.buttonText)
             .frame(maxWidth: .infinity, minHeight: 44)
-            .background(.white)
+            .background(.button)
+            .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+}
+
+struct PreppedSecondaryButtonLabelModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.subheadline)
+            .fontWeight(.semibold)
+            .foregroundStyle(.buttonText)
+            .frame(maxWidth: .infinity, minHeight: 44)
             .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }
